@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: opi-vault-library
+Version: 0.1
+Summary: A Python package for file protection process
+Home-page: https://github.com/opintel/ea_vault_library
+Author: OPI
+Author-email: j.castaneda@opianalytics.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
