@@ -13,5 +13,5 @@ setup(name='opi_vault_library',
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requirest=['PyPDF2','pycryptodome','python-dotenv'],
+    install_requires=['PyPDF2','pycryptodome','python-dotenv'],
     zip_safe=False)
