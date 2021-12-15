@@ -1,15 +1,17 @@
-from collections.abc import Sequence
 import hashlib
 from io import BytesIO, BufferedIOBase
-from os import name, path
 import os
+from typing import (
+    Sequence,
+    Tuple,
+)
 from zipfile import ZipFile, ZIP_DEFLATED
 from Crypto.Cipher import AES
 
 
 BUFFER_SIZE = 0x10000 # 64kb
 MODE = AES.MODE_CFB
-FileAndName = tuple[BytesIO, str]
+FileAndName = Tuple[BytesIO, str]
 
 
 def encrypt_stream(input_stream: BufferedIOBase, password: str) -> BytesIO:
